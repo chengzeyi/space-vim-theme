@@ -36,13 +36,13 @@ DiffText                         yellow   bg0     reverse
 Directory                        blue     none    bold
 EndOfBuffer                      bg0      none
 Error                            red      bg0     bold,reverse
-ErrorMsg                         bg0      red
+ErrorMsg                         bg0      red     bold
 Folded                           purple1  bg1     g=italic
 IncSearch                        orange   bg0     bold,reverse
 LineNr                           grey     none
 MatchParen                       green    none    bold,underline
-ModeMsg                          yellow1  none
-MoreMsg                       -> ModeMsg
+ModeMsg                          yellow1  none    bold
+MoreMsg                       -> ModeMsg  none    bold
 NonText                          grey     none
 Whitespace                       grey     none
 
@@ -64,13 +64,13 @@ StatusLine                       fg1      purple2
 StatusLineNC                     purple2  bg4
 StatusLineTerm                -> StatusLine
 StatusLineTermNC              -> StatusLineNC
-TabLineFill                      purple3  bg1
-TabLineSel                       green    bg1
-TabLine                       -> TabLineFill
+TabLineFill                      purple3  bg4
+TabLineSel                       green    bg3     bold
+TabLine                          purple2  bg2
 Title                            green    none    bold
 Visual                           none     purple3
 VisualNOS                     -> Visual
-WarningMsg                       red      none
+WarningMsg                       red      none    bold
 WildMenu                         orange   bg1     bold
 # Other conventional group names (see `:help group-name`)
 Boolean                          war   none
