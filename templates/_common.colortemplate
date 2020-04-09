@@ -77,25 +77,25 @@ Boolean                          war   none
 Character                        purple   none
 Comment                          grey1    none    g=italic
 Conditional                      blue     none    bold
-Constant                         orange   none
+Constant                         orange0  none
 Define                           aqua     none
 Debug                            red2     none
 Delimiter                        delimiter      none
 Error                            red      bg0     bold,reverse
-Exception                        red      none
+Exception                        comp     none
 Float                            float    none
 Function                         purple   none    bold
 Identifier                       blue1    none
 Ignore                           fg       none
-Include                          yellow   none
+Include                          purple   none
 Keyword                          blue     none    bold
-Label                            red1     none
-Macro                            blue1    none    bold
+Label                            comp     none
+Macro                            purple0  none    bold
 Number                           number   none
-Operator                         blue0    none
+Operator                         blue0    none    bold
 PreCondit                        purple1  none
-PreProc                          purple0  none
-Repeat                           red1     none    bold
+PreProc                          purple1  none
+Repeat                           comp     none    bold
 SpecialChar                      cyan     none
 SpecialComment                   cyan     none    g=italic
 Statement                        blue     none
