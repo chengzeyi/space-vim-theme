@@ -349,13 +349,13 @@ moonObject                       yellow none
 javaAnnotation                   blue   none
 javaDocTags                      aqua   none
 javaCommentTitle              -> vimCommentTitle
-javaParen                        fg3    none
-javaParen1                       fg3    none
-javaParen2                       fg3    none
-javaParen3                       fg3    none
-javaParen4                       fg3    none
-javaParen5                       fg3    none
-javaOperator                     orange none
+# javaParen                        fg3    none
+# javaParen1                       fg3    none
+# javaParen2                       fg3    none
+# javaParen3                       fg3    none
+# javaParen4                       fg3    none
+# javaParen5                       fg3    none
+# javaOperator                     orange none
 
 javaVarArg                       green  none
 # }}}
