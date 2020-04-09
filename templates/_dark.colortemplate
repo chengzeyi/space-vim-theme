@@ -118,8 +118,8 @@
 
 # Color palette for dark background
 # bg0  ----> spacemacs-theme bg1
-Color: bg0        #292b2e ~
-Color: bg1        #212026 ~
+Color: bg0        #212026 ~
+Color: bg1        #292b2e ~
 Color: bg2        #100a14 ~
 Color: bg3        #0a0814 ~
 Color: bg4        #34323e ~

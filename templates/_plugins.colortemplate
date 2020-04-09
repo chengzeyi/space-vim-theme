@@ -67,7 +67,7 @@ endverbatim
 verbatim
 " IndentLine
 if !exists('g:indentLine_color_term')
-  let g:indentLine_color_term = @termbg2
+  let g:indentLine_color_term = '@termbg2'
 endif
 if !exists('g:indentLine_color_gui')
   let g:indentLine_color_gui = '@guibg2'

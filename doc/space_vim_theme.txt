@@ -56,5 +56,3 @@ terminal.
 >
 	let g:space_vim_transp_bg = 0
 <
-
-vim:tw=78:ts=8:ft=help:norl:

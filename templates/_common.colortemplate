@@ -6,7 +6,7 @@ if !has('gui_running') && get(g:, '@optionprefix_transp_bg', 0)
 endverbatim
     # Transparent background
     Normal       fg1    none
-    CursorLineNr purple none
+    CursorLineNr purple none bold
     FoldColumn   purple none
     SignColumn   fg1    none
     VertSplit    bg1    none
@@ -15,7 +15,7 @@ else
 endverbatim
     # Opaque background
     Normal       fg1    bg0
-    CursorLineNr purple bg1
+    CursorLineNr purple bg1 bold
     FoldColumn   purple bg1
     SignColumn   fg1    bg0
     VertSplit    bg1    bg0
@@ -44,10 +44,11 @@ MatchParen                       green    none    bold,underline
 ModeMsg                          yellow1  none
 MoreMsg                       -> ModeMsg
 NonText                          grey     none
+Whitespace                       grey     none
 
 Pmenu                            fg5      purple4
 PmenuSbar                        none     bg1
-PmenuSel                         none     fg6
+PmenuSel                         none     fg6     bold
 PmenuThumb                       none     purple2
 
 Question                         orange   none    bold
@@ -74,7 +75,7 @@ WildMenu                         orange   bg1     bold
 # Other conventional group names (see `:help group-name`)
 Boolean                          war   none
 Character                        purple   none
-Comment                          green1   none    none g=italic
+Comment                          grey1    none    g=italic
 Conditional                      blue     none    bold
 Constant                         orange   none
 Define                           aqua     none
@@ -96,7 +97,7 @@ PreCondit                        purple1  none
 PreProc                          purple0  none
 Repeat                           red1     none    bold
 SpecialChar                      cyan     none
-SpecialComment                   grey1    none
+SpecialComment                   cyan     none    g=italic
 Statement                        blue     none
 StorageClass                     yellow   none    bold
 Special                          orange0  none
