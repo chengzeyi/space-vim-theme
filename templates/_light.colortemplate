@@ -70,5 +70,5 @@ endverbatim
 
 Include: _common.colortemplate
 
-StatusLineNC       purple2  bg1
+StatusLineNC       bg4      bg2
 Visual             none     bg2

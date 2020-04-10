@@ -55,7 +55,7 @@ Question                         orange   none    bold
 QuickFixLine                  -> Search
 qfLineNr                      -> Type
 Search                           green    bg0     bold,reverse
-SpecialKey                       purple   none
+SpecialKey                       grey     none
 SpellBad                         red      none    t=underline g=italic,undercurl s=red
 SpellCap                         blue     none    t=underline g=italic,undercurl s=blue
 SpellLocal                       aqua     none    t=underline g=italic,undercurl s=aqua
@@ -64,9 +64,9 @@ StatusLine                       fg1      purple2
 StatusLineNC                     purple2  bg4
 StatusLineTerm                -> StatusLine
 StatusLineTermNC              -> StatusLineNC
-TabLineFill                      purple3  bg4
-TabLineSel                       green    bg3     bold
-TabLine                          purple2  bg2
+TabLineFill                   -> StatusLineNC
+TabLineSel                       green    fg6     bold
+TabLine                       -> Pmenu
 Title                            green    none    bold
 Visual                           none     purple3
 VisualNOS                     -> Visual
