@@ -65,7 +65,7 @@ StatusLineNC                     purple2  bg4
 StatusLineTerm                -> StatusLine
 StatusLineTermNC              -> StatusLineNC
 TabLineFill                   -> StatusLineNC
-TabLineSel                       green    fg6     bold
+TabLineSel                    -> PmenuSel
 TabLine                       -> Pmenu
 Title                            green    none    bold
 Visual                           none     purple3
