@@ -24,97 +24,97 @@ endif
 endverbatim
 
 # Group                          Fg       Bg      Attributes
-ColorColumn                      none     bg1
-Conceal                          blue     none
-Cursor                           orange   none    bold,reverse
-CursorColumn                  -> CursorLine
-CursorLine                       none     bg1
-DiffAdd                          green    bg0     reverse
-DiffChange                       orange   bg0     reverse
-DiffDelete                       red      bg0     reverse
-DiffText                         yellow   bg0     reverse
-Directory                        blue     none    bold
-EndOfBuffer                      bg0      none
-Error                            red      bg0     bold,reverse
-ErrorMsg                         bg0      red     bold
-Folded                           purple1  bg1     g=italic
-IncSearch                        orange   bg0     bold,reverse
-LineNr                           grey     none
-MatchParen                       green    none    bold,underline
-ModeMsg                          yellow1  none    bold
-MoreMsg                       -> ModeMsg  none    bold
-NonText                          grey     none
-Whitespace                       grey     none
+ColorColumn      none     bg1
+Conceal          blue     none
+Cursor           none     orange  bold
+CursorColumn     -> CursorLine
+CursorLine       none     bg1
+DiffAdd          green    bg0
+DiffChange       bg0      orange
+DiffDelete       bg0      red
+DiffText         bg0     yellow
+Directory        blue     none    bold
+EndOfBuffer      bg0      none
+Error            bg0     red      bold
+ErrorMsg         bg0      red     bold
+Folded           purple1  bg1     g=italic
+IncSearch        bg0     orange   bold
+LineNr           grey     none
+MatchParen       green    none    bold,underline
+ModeMsg          yellow1  none    bold
+MoreMsg          -> ModeMsg  none    bold
+NonText          grey     none
+Whitespace       grey     none
 
-Pmenu                            fg5      purple4
-PmenuSbar                        none     bg1
-PmenuSel                         none     fg6     bold
-PmenuThumb                       none     purple2
+Pmenu            fg5      purple4
+PmenuSbar        none     bg1
+PmenuSel         none     fg6     bold
+PmenuThumb       none     purple2
 
-Question                         orange   none    bold
-QuickFixLine                  -> Search
-qfLineNr                      -> Type
-Search                           green    bg0     bold,reverse
-SpecialKey                       grey     none
-SpellBad                         red      none    t=underline g=italic,undercurl s=red
-SpellCap                         blue     none    t=underline g=italic,undercurl s=blue
-SpellLocal                       aqua     none    t=underline g=italic,undercurl s=aqua
-SpellRare                        purple   none    t=underline g=italic,undercurl s=purple
-StatusLine                       fg1      purple2
-StatusLineNC                     purple2  bg4
-StatusLineTerm                -> StatusLine
-StatusLineTermNC              -> StatusLineNC
-TabLineFill                   -> StatusLineNC
-TabLineSel                    -> PmenuSel
-TabLine                       -> Pmenu
-Title                            green    none    bold
-Visual                           none     purple3
-VisualNOS                     -> Visual
-WarningMsg                       red      none    bold
-WildMenu                         orange   bg1     bold
+Question         orange   none    bold
+QuickFixLine     -> Search
+qfLineNr         -> Type
+Search           bg0     green    bold
+SpecialKey       grey     none
+SpellBad         red      none    t=underline g=italic,undercurl s=red
+SpellCap         blue     none    t=underline g=italic,undercurl s=blue
+SpellLocal       aqua     none    t=underline g=italic,undercurl s=aqua
+SpellRare        purple   none    t=underline g=italic,undercurl s=purple
+StatusLine       fg1      purple2
+StatusLineNC     purple2  bg4
+StatusLineTerm   -> StatusLine
+StatusLineTermNC -> StatusLineNC
+TabLineFill      -> StatusLineNC
+TabLineSel       -> PmenuSel
+TabLine          -> Pmenu
+Title            green    none    bold
+Visual           none     purple3
+VisualNOS        -> Visual
+WarningMsg       red      none    bold
+WildMenu         orange   bg1     bold
 # Other conventional group names (see `:help group-name`)
-Boolean                          war   none
-Character                        purple   none
-Comment                          grey1    none    g=italic
-Conditional                      blue     none    bold
-Constant                         orange0  none
-Define                           aqua     none
-Debug                            red2     none
-Delimiter                        delimiter      none
-Error                            red      bg0     bold,reverse
-Exception                        comp     none
-Float                            float    none
-Function                         purple   none    bold
-Identifier                       blue1    none
-Ignore                           fg       none
-Include                          purple   none
-Keyword                          blue     none    bold
-Label                            comp     none
-Macro                            purple0  none    bold
-Number                           number   none
-Operator                         blue0    none    bold
-PreCondit                        purple1  none
-PreProc                          purple1  none
-Repeat                           comp     none    bold
-SpecialChar                      cyan     none
-SpecialComment                   cyan     none    g=italic
-Statement                        blue     none
-StorageClass                     yellow   none    bold
-Special                          orange0  none
-String                           aqua     none
-Structure                        aqua1    none    bold
-Tag                              orange   none
-Todo                             orange   none    t=bold g=bold,italic
-Type                             red1     none
-Typedef                          yellow   none
-Underlined                       blue     none    underline
+Boolean          war   none
+Character        purple   none
+Comment          grey1    none    g=italic
+Conditional      blue     none    bold
+Constant         orange0  none
+Define           aqua     none
+Debug            red2     none
+Delimiter        delimiter      none
+Error            bg0     red      bold
+Exception        comp     none
+Float            float    none
+Function         purple   none    bold
+Identifier       blue1    none
+Ignore           fg       none
+Include          purple   none
+Keyword          blue     none    bold
+Label            comp     none
+Macro            purple0  none    bold
+Number           number   none
+Operator         blue0    none    bold
+PreCondit        purple1  none
+PreProc          purple1  none
+Repeat           comp     none    bold
+SpecialChar      cyan     none
+SpecialComment   cyan     none    g=italic
+Statement        blue     none
+StorageClass     yellow   none    bold
+Special          orange0  none
+String           aqua     none
+Structure        aqua1    none    bold
+Tag              orange   none
+Todo             orange   none    t=bold g=bold,italic
+Type             red1     none
+Typedef          yellow   none
+Underlined       blue     none    underline
 # Language mapping cursor
-lCursor                       -> Cursor
+lCursor          -> Cursor
 # See `:help CursorIM`
-CursorIM                         none     none    reverse
+CursorIM         none    none
 # See `:help window-toolbar`
-ToolbarLine                      none     bg3
-ToolbarButton                    fg0      bg3     bold
+ToolbarLine      none     bg3
+ToolbarButton    fg0      bg3     bold
 # }}}
 
 # Italics {{{
@@ -142,12 +142,12 @@ iCursor                    -> Cursor
 vCursor                    -> Cursor
 
 # Useful for custom status lines
-NormalMode                    fg4    bg0     reverse
-InsertMode                    blue   bg0     reverse
-ReplaceMode                   aqua   bg0     reverse
-VisualMode                    orange bg0     reverse
-CommandMode                   purple bg0     reverse
-Warnings                      orange bg0     reverse
+NormalMode                    bg0     fg4
+InsertMode                    bg0     blue
+ReplaceMode                   bg0     aqua
+VisualMode                    bg0     orange
+CommandMode                   bg0     purple
+Warnings                      bg0     orange
 # }}}
 
 # NeoVim terminal colors {{{
