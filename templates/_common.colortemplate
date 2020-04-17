@@ -2,6 +2,9 @@
 
 # Default highlight groups {{{
 verbatim
+if get(g:, "@optionprefix_italic", 0)
+  let s:italics = 1
+endif
 if !has('gui_running') && get(g:, '@optionprefix_transp_bg', 0)
 endverbatim
     # Transparent background
@@ -119,15 +122,6 @@ ToolbarButton    fg0      bg3     bold
 
 # Italics {{{
 verbatim
-if get(g:, "@optionprefix_italic", 0)
-  hi Comment    cterm=italic
-  hi Folded     cterm=italic
-  hi SpellBad   cterm=italic,underline
-  hi SpellCap   cterm=italic,underline
-  hi SpellLocal cterm=italic,underline
-  hi SpellRare  cterm=italic,underline
-  hi Todo       cterm=italic
-endif
 if get(g:, "@optionprefix_italicize_strings", 0)
   hi Special    cterm=italic gui=italic
   hi String     cterm=italic gui=italic
